@@ -1,0 +1,21 @@
+{
+  "name": "apihub",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "servers/*",
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0"
+  },
+  "packageManager": "yarn@1.22.22"
+}
